@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Florian Vogt | RL Research Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+        body {
+            font-family: 'Lato', Verdana, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #444;
+            max-width: 840px;
+            margin: 40px auto;
+            padding: 20px;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        a {
+            color: #1772d0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #f09228;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        h1 {
+            font-size: 34px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        heading {
+            font-weight: bold;
+            font-size: 20px;
+            border-bottom: 1px solid #ddd;
+            display: block;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        table {
+            border: 0;
+            border-spacing: 0;
+            border-collapse: separate;
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        .profile-img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+        }
+
+        .project-media {
+            width: 160px;
+            height: 110px;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            object-fit: cover;
+            display: block;
+        }
+
+        .xqc-crop {
+            object-position: right center;
+        }
+
+        papertitle {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .author-list,
+        .description {
+            font-size: 0.85em;
+            line-height: 1.3;
+        }
+
+        .paper-links {
+            font-size: 0.75em;
+            margin-top: 2px;
+            display: block;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.8em;
+            text-align: center;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- BIO SECTION -->
+    <table>
+        <tr>
+            <td style="width:65%; padding-right: 30px;">
+                <h1>Florian Vogt</h1>
+                <p>
+                    Hej! I am a Research Engineer at <strong>KTH Royal Institute of Technology</strong> in Stockholm,
+                    where I work on <strong>Reinforcement Learning</strong>.
+                </p>
+                <p>
+                    I received my Master's degree from the <strong>University of Freiburg</strong>. While I enjoyed
+                    publishing research during my studies, I decided against a PhD to focus on applying RL to real-world
+                    applications.
+                </p>
+                <p>
+                    <strong>I love solving problems that require an effort in both research and engineering.</strong> My
+                    work mostly focuses on sample and computational efficient RL, scaling it effectively for challenging
+                    tasks.
+                </p>
+                <p>
+                    This effort resulted in <strong>XQC</strong>, a state-of-the-art algorithm in off-policy RL that
+                    achieves its performance through surprisingly simple methods.
+                </p>
+                <p style="text-align:center">
+                    <a href="mailto:fvogt.fv@gmail.com">Email</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/fvgt">GitHub</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=PvEf33EAAAAJ">Scholar</a>
+                </p>
+            </td>
+            <td style="width:35%; text-align: right;">
+                <img src="pictures/me.png" alt="Florian Vogt" class="profile-img"
+                    onerror="this.src='https://via.placeholder.com/200x250?text=Profile'">
+            </td>
+        </tr>
+    </table>
+
+    <!-- RESEARCH SECTION -->
+    <table>
+        <tr>
+            <td>
+                <heading>Research</heading>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <!-- Paper 1: FlashSAC -->
+        <tr>
+            <td style="width:25%;">
+                <video class="project-media" muted autoplay loop playsinline>
+                    <source src="https://holiday-robot.github.io/FlashSAC/videos/sim-to-real/g1_stair.mp4"
+                        type="video/mp4">
+                </video>
+            </td>
+            <td style="width:75%;">
+                <a href="https://holiday-robot.github.io/FlashSAC/">
+                    <papertitle>FlashSAC: Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot
+                        Control</papertitle>
+                </a>
+                <br>
+                <span class="author-list">
+                    <a href="https://i-am-proto.github.io/">Donghu Kim</a>,
+                    <a href="https://leeyngdo.github.io/">Youngdoo Lee</a>,
+                    <a href="https://pmh9960.github.io/">Minho Park</a>,
+                    <a href="https://kinam0252.github.io/">Kinam Kim</a>,
+                    <a href="https://anahrendra.github.io/">Aswin Nahrendra</a>,
+                    <a href="https://takuseno.github.io/">Takuma Seno</a>,
+                    <a href="https://seiing.github.io/">Sehee Min</a>,
+                    <a href="https://www.linkedin.com/in/danielpalenicek/">Daniel Palenicek</a>,
+                    <strong>Florian Vogt</strong>,
+                    <a href="https://www.csc.kth.se/~dani/">Danica Kragic</a>,
+                    <a href="https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters">Jan Peters</a>,
+                    <a href="https://scholar.google.com/scholar?q=Jaesik+Choo">Jaesik Choo</a>,
+                    <a href="https://scholar.google.com/scholar?q=Honglak+Lee">Honglak Lee</a>
+                </span>
+                <br>
+                <em>Robotics: Science and Systems (RSS)</em>, 2026
+                <br>
+                <span class="paper-links">
+                    <a href="https://holiday-robot.github.io/FlashSAC/">Project Page</a> /
+                    <a href="https://github.com/Holiday-Robot/FlashSAC">Code</a> /
+                    <a href="https://arxiv.org/abs/2604.04539">ArXiv</a>
+                </span>
+                <p class="description">Optimizing SAC for high-speed robotics training. Adopted as a baseline for
+                    high-dimensional robotic benchmarks.</p>
+            </td>
+        </tr>
+
+        <!-- Paper 2: XQC -->
+        <tr>
+            <td style="width:25%;">
+                <img src="https://danielpalenicek.github.io/img/xqc/camera_ready_xq_baselines_auc.png"
+                    class="project-media xqc-crop" alt="XQC Baselines Plot">
+            </td>
+            <td style="width:75%;">
+                <a href="https://danielpalenicek.github.io/projects/xqc">
+                    <papertitle>XQC: Well-conditioned Optimization Accelerates Deep Reinforcement Learning</papertitle>
+                </a>
+                <br>
+                <span class="author-list">
+                    <a href="https://www.linkedin.com/in/danielpalenicek/">Daniel Palenicek</a>,
+                    <strong>Florian Vogt</strong>,
+                    <a href="https://joemwatson.github.io/">Joe Watson</a>,
+                    <a href="https://iposner.github.io/about/">Ingmar Posner</a>,
+                    <a href="https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters">Jan Peters</a>
+                </span>
+                <br>
+                <em>International Conference on Learning Representations (ICLR)</em>, 2026
+                <br>
+                <span class="paper-links">
+                    <a href="https://danielpalenicek.github.io/projects/xqc">Project Page</a> /
+                    <a href="https://github.com/danielpalenicek/xqc">Code</a> /
+                    <a href="https://arxiv.org/abs/2509.25174">ArXiv</a>
+                </span>
+                <p class="description">Accelerating training by improving the conditioning of the optimization landscape
+                    in deep RL.</p>
+            </td>
+        </tr>
+
+        <!-- Paper 3: Scaling BN with WN -->
+        <tr>
+            <td style="width:25%;">
+                <video class="project-media" muted autoplay loop playsinline>
+                    <source src="https://danielpalenicek.github.io/videos/crossqwn/dog-trot.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td style="width:75%;">
+                <a href="https://arxiv.org/abs/2502.07523">
+                    <papertitle>Scaling Off-Policy Reinforcement Learning with Batch and Weight Normalization
+                    </papertitle>
+                </a>
+                <br>
+                <span class="author-list">
+                    <a href="https://www.linkedin.com/in/danielpalenicek/">Daniel Palenicek</a>,
+                    <strong>Florian Vogt</strong>,
+                    <a href="https://joemwatson.github.io/">Joe Watson</a>,
+                    <a href="https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters">Jan Peters</a>
+                </span>
+                <br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <span class="paper-links">
+                    <a href="https://arxiv.org/abs/2502.07523">ArXiv</a>
+                </span>
+                <p class="description">A study on how normalization stabilizes and scales off-policy learning for
+                    complex tasks.</p>
+            </td>
+        </tr>
+
+        <!-- Paper 4: Tree-Based -->
+        <tr>
+            <td style="width:25%;">
+                <img src="pictures/tree.png" class="project-media" alt="Tree-Based RL Figure"
+                    onerror="this.src='https://via.placeholder.com/300x200?text=Tree-RL+Plot'">
+            </td>
+            <td style="width:75%;">
+                <a href="https://arxiv.org/abs/2408.08761">
+                    <papertitle>Mitigating Information Loss in Tree-Based Reinforcement Learning via Direct Optimization
+                    </papertitle>
+                </a>
+                <br>
+                <span class="author-list">
+                    <a href="https://s-marton.github.io/">Sascha Marton</a>,
+                    <a href="https://scholar.google.com/citations?user=fs_6twkAAAAJ&hl=de">Tim Grams</a>,
+                    <strong>Florian Vogt</strong>,
+                    <a
+                        href="https://www.uni-mannheim.de/ines/ueber-uns/wissenschaftliche-mitarbeiterinnen-und-mitarbeiter/dr-stefan-luedtke/">Stefan
+                        Luedtke</a>,
+                    <a
+                        href="https://www.uni-mannheim.de/ines/ueber-uns/wissenschaftliche-mitarbeiterinnen-und-mitarbeiter/dr-christian-bartelt/">Christian
+                        Bartelt</a>,
+                    <a href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-heiner-stuckenschmidt/">Heiner
+                        Stuckenschmidt</a>
+                </span>
+                <br>
+                <em>International Conference on Learning Representations (ICLR)</em>, 2025
+                <br>
+                <span class="paper-links">
+                    <a href="https://github.com/s-marton/SYMPOL">Code</a> /
+                    <a href="https://arxiv.org/abs/2408.08761">ArXiv</a>
+                </span>
+                <p class="description">Handles information bottleneck issues in tree-structured RL via direct
+                    optimization.</p>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>Template inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+    </footer>
+</body>
+
+</html>
